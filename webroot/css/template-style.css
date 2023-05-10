@@ -1,0 +1,334 @@
+#first-block, #second-block, #third-block, #fourth-block {
+text-align:center;
+padding:3.5rem 0;
+}
+#carousel {
+text-align:center;
+background:#e5e5e5;
+}
+#first-block {
+background:#fff;
+}
+#second-block {
+background:#e5e5e5;
+}
+#third-block {
+background:#fff;
+}
+#fourth-block {
+background:#e5e5e5;
+}
+footer {
+/*background:#fff;*/
+padding:3.5rem 0;
+}
+@media screen and (max-width: 768px) {
+  .right {
+  float:none;
+  }
+}
+
+.pagination > li {
+  display: inline;
+}
+.pagination > li > a,
+.pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #428bca;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+.pagination > li:first-child > a,
+.pagination > li:first-child > span {
+  margin-left: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  color: #2a6496;
+  background-color: #eee;
+  border-color: #ddd;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  z-index: 2;
+  color: #fff;
+  cursor: default;
+  background-color: #428bca;
+  border-color: #428bca;
+}
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
+  color: #999;
+  cursor: not-allowed;
+  background-color: #fff;
+  border-color: #ddd;
+}
+.pagination-lg > li > a,
+.pagination-lg > li > span {
+  padding: 10px 16px;
+  font-size: 18px;
+}
+.pagination-lg > li:first-child > a,
+.pagination-lg > li:first-child > span {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.pagination-lg > li:last-child > a,
+.pagination-lg > li:last-child > span {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.pagination-sm > li > a,
+.pagination-sm > li > span {
+  padding: 5px 10px;
+  font-size: 12px;
+}
+.pagination-sm > li:first-child > a,
+.pagination-sm > li:first-child > span {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.pagination-sm > li:last-child > a,
+.pagination-sm > li:last-child > span {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.pagination_count {
+    display: inline;
+    height: 25px;
+}
+.pagination_count span {
+    padding: 5px 10px;
+    display: inline;
+    position: relative;
+    float: left;
+    border: 1px solid #DDD;
+}
+
+/* agregados*/
+.canje_beneficio_descripcion h3{
+	border-bottom: 0.2em solid #eeeeee;
+	color: #525252;
+	font-size: 1rem;
+	margin-top: 3.7rem;
+	padding-bottom: 0.4em;
+	text-transform: uppercase;
+}
+.beneficio_index_puntos{
+	height:55px;
+	float:left;
+	width: 100%;
+		border-bottom: 0.2em solid #eeeeee;
+}
+
+.beneficio_index_puntos h5{
+	border-bottom: 0.2em solid #eeeeee;
+	
+	color: #525252;
+	/*font-size: 1rem;*/
+	margin-top: 0.5rem;
+	padding-bottom: 0.4em;
+	padding-top: 0.4em;
+	text-transform: uppercase;
+text-align:right;
+}
+
+.beneficio_index_titulo{
+	height:60px;
+	float:left;
+	width: 100%;
+		border-bottom: 0.2em solid #eeeeee;
+}
+.beneficio_index_titulo h5{
+	font-size: 1.0rem;
+	margin-top: 0.5rem;
+	padding-bottom: 0.4em;
+	text-transform: uppercase;
+}
+
+.canje_beneficio_imagen{
+	width: 100%;
+	float:left;
+}
+
+.canje_beneficio_puntos{
+	width: 100%;
+	float:left;
+}
+
+.canje_beneficio_vigencia{
+	width: 100%;
+	float:left;
+}
+
+.noticia_novedad{
+		padding-bottom: 0.6em;
+	padding-top: 0.6em;
+	border-bottom: 0.2em solid #eeeeee;
+	
+}
+
+.noticia{
+	padding-bottom: 0.6em;
+	padding-top: 0.6em;
+	border-bottom: 0.2em solid #eeeeee;
+	
+}
+.noticia .texto{
+	text-align: justify;
+}
+.noticia_novedad .texto{
+	text-align: justify;
+}
+
+.canjes{
+	/*width: 90%;*/
+	padding-left: 3%;
+	padding-right: 3%;
+	    min-height: 400px;
+}
+
+.movimientos table{
+	/*width: 90%;*/
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.movimientos{
+	padding-left: 3%;
+	padding-right: 3%;
+	
+}
+
+.canjes table{
+	/*width: 90%;*/
+	min-height: 100px;
+	    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.canjes_img{
+	height:60px;
+}
+
+.canje_envio{
+	margin-top: 3%;
+	margin-bottom: 3%;
+	text-align: justify;
+
+	
+}
+
+.canje_envio h3{
+	border-bottom: 0.2em solid #eeeeee;
+	color: #525252;
+	font-size: 1rem;
+	margin-top: 3.7rem;
+	padding-bottom: 0.4em;
+	text-transform: uppercase;
+}
+.logo_mensaje{
+	font-size: 0.7rem;
+}
+.puntos{
+	padding-left: 3%;
+	padding-right: 3%;
+	
+}
+.puntos_disponibles{
+margin-top: 2%;
+	margin-bottom: 2%;
+}
+.puntos_equivalencias{
+margin-top: 2%;
+	margin-bottom: 2%;
+}
+.puntos_a_vencer{
+margin-top: 2%;
+	margin-bottom: 2%;
+	min-height:90px;
+}
+
+.logo_mensaje img{
+	display:inline;
+}
+
+#logos img{
+	display:inline;
+}
+
+#and{
+	margin-bottom:20px;
+}
+
+#beneficio_sort_linea{
+	float: right;
+	text-align: right;
+	width: 100%;
+	display: block;
+}
+.beneficio_sort{
+	font-size:11px;
+	margin-top: 10px;
+	
+		width: 100%;
+		height:50px;
+		display:block;
+		    
+}
+.param_sort{
+		
+		/*float: left;*/
+	display:inline-block;
+	
+	
+  
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #428bca;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.cantidadselect {
+    /*background-color: #e2e2e2;*/
+	font-size:11px;
+    border: 0px solid #fff; /* ESTA ES LA PROPIEDAD */
+    /*cursor: pointer;*/
+    /*padding:1px;*/
+    /*vertical-align: middle;*/
+}
+
+
+.cantidadselect2 {
+    /*background-color: #e2e2e2;*/
+	/*font-size:11px;*/
+    border: 0px solid #fff; /* ESTA ES LA PROPIEDAD */
+    /*cursor: pointer;*/
+    /*padding:1px;*/
+    /*vertical-align: middle;*/
+}
